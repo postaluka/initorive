@@ -7,7 +7,7 @@ html,
 body {
     background-color: #262626;
     /* no scroll when control is unactive */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .webgl {
@@ -19,26 +19,30 @@ body {
 
 .container {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    /* Дозволяє карти переноситися на наступний ряд */
     justify-content: center;
-    margin: 10px;
-    padding: 10px;
+    /* Центрує карти по горизонталі */
     gap: 20px;
+    /* Проміжок між картами */
+    padding: 20px;
 }
-
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: calc(33.333% - 40px);
+    /* Три карти в ряд, з урахуванням проміжків */
     margin-bottom: 20px;
-    /* Space between the card and text */
+    box-sizing: border-box;
+    /* Враховує padding і border у ширині */
 }
 
 .card-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 10px;
-    /* Space between canvas and text */
+    /* Відступ між canvas і текстом */
     font-size: 16px;
     color: #FFFFFF;
     text-align: left;

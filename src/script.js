@@ -77,6 +77,17 @@ const inito08firmwareUpdate = new rive.Rive(
         autoplay: true,
         stateMachines: 'INITO SM 08 Firmware update',
     }
+
+)
+//canvas09charging
+
+const inito09charging = new rive.Rive(
+    {
+        src: 'rive/inito_charge.riv',
+        canvas: canvas09charging,
+        autoplay: true,
+        stateMachines: 'INITO SM 09 Charging',
+    }
 )
 
 //canvas10beforeProvisioning

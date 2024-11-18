@@ -8,8 +8,8 @@ const canvas02afterProvisioning = document.getElementById('canvas02afterProvisio
 const canvas03bluetoothPairing = document.getElementById('canvas03bluetoothPairing')
 const canvas04bluetoothConnected = document.getElementById('canvas04bluetoothConnected')
 const canvas08firmwareUpdate = document.getElementById('canvas08firmwareUpdate')
-const canvas11beforeProvisioning = document.getElementById('canvas11beforeProvisioning')
-const canvas12afterProvisioning = document.getElementById('canvas12afterProvisioning')
+const canvas10beforeProvisioning = document.getElementById('canvas10beforeProvisioning')
+const canvas11afterProvisioning = document.getElementById('canvas11afterProvisioning')
 
 
 //canvas01beforeProvisioning
@@ -67,23 +67,23 @@ const inito08firmwareUpdate = new rive.Rive(
     }
 )
 
-//canvas11beforeProvisioning
+//canvas10beforeProvisioning
 
-const inito11beforeProvisioning = new rive.Rive(
+const inito10beforeProvisioning = new rive.Rive(
     {
         src: 'rive/inito_.riv',
-        canvas: canvas11beforeProvisioning,
+        canvas: canvas10beforeProvisioning,
         autoplay: true,
         stateMachines: 'INITO SM 11 Turning on the device - before provisioning',
     }
 )
 
-//canvas12afterProvisioning
+//canvas11afterProvisioning
 
-const inito12afterProvisioning = new rive.Rive(
+const inito11afterProvisioning = new rive.Rive(
     {
         src: 'rive/inito_.riv',
-        canvas: canvas12afterProvisioning,
+        canvas: canvas11afterProvisioning,
         autoplay: true,
         stateMachines: 'INITO SM 12 Turning on the device - after provisioning',
     }

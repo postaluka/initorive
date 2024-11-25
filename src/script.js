@@ -13,6 +13,8 @@ const canvas07validatingStrip = document.getElementById('canvas07validatingStrip
 const canvas08firmwareUpdate = document.getElementById('canvas08firmwareUpdate')
 const canvas10beforeProvisioning = document.getElementById('canvas10beforeProvisioning')
 const canvas11afterProvisioning = document.getElementById('canvas11afterProvisioning')
+const canvas12pairingMode01 = document.getElementById('canvas12pairingMode01')
+const canvas13pairingMode02 = document.getElementById('canvas13pairingMode02')
 
 
 //canvas01beforeProvisioning
@@ -133,6 +135,28 @@ const inito11afterProvisioning = new rive.Rive(
         canvas: canvas11afterProvisioning,
         autoplay: true,
         stateMachines: 'INITO SM 12 Turning on the device - after provisioning',
+    }
+)
+
+//canvas12pairingMode01
+
+const inito12pairingMode01 = new rive.Rive(
+    {
+        src: 'rive/inito_.riv',
+        canvas: canvas12pairingMode01,
+        autoplay: true,
+        stateMachines: 'INITO SM 12 Pairing mode - 1',
+    }
+)
+
+//canvas13pairingMode02
+
+const inito13pairingMode02 = new rive.Rive(
+    {
+        src: 'rive/inito_.riv',
+        canvas: canvas13pairingMode02,
+        autoplay: true,
+        stateMachines: 'INITO SM 13 Pairing mode - 2',
     }
 )
 

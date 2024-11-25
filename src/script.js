@@ -7,6 +7,8 @@ const canvas01beforeProvisioning = document.getElementById('canvas01beforeProvis
 const canvas02afterProvisioning = document.getElementById('canvas02afterProvisioning')
 const canvas03bluetoothPairing = document.getElementById('canvas03bluetoothPairing')
 const canvas04bluetoothConnected = document.getElementById('canvas04bluetoothConnected')
+const canvas05phoneBeforeProvision = document.getElementById('canvas05phoneBeforeProvision')
+const canvas06phoneAfterProvision = document.getElementById('canvas06phoneAfterProvision')
 const canvas07validatingStrip = document.getElementById('canvas07validatingStrip')
 const canvas08firmwareUpdate = document.getElementById('canvas08firmwareUpdate')
 const canvas10beforeProvisioning = document.getElementById('canvas10beforeProvisioning')
@@ -54,6 +56,28 @@ const inito04bluetoothConnected = new rive.Rive(
         canvas: canvas04bluetoothConnected,
         autoplay: true,
         stateMachines: 'INITO SM 04 Bluetooth connected',
+    }
+)
+
+//canvas05phoneBeforeProvision
+
+const inito05phoneBeforeProvision = new rive.Rive(
+    {
+        src: 'rive/inito_iphone.riv',
+        canvas: canvas05phoneBeforeProvision,
+        autoplay: true,
+        stateMachines: 'INITO SM 05 Bring the device close to the phone - before provisioning',
+    }
+)
+
+//canvas06phoneAfterProvision
+
+const inito06phoneAfterProvision = new rive.Rive(
+    {
+        src: 'rive/inito_iphone.riv',
+        canvas: canvas06phoneAfterProvision,
+        autoplay: true,
+        stateMachines: 'INITO SM 06 Bring the device close to the phone - after provisioning',
     }
 )
 

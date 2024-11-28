@@ -153,7 +153,7 @@ const inito12pairingMode01 = new rive.Rive(
 
 const inito13pairingMode02 = new rive.Rive(
     {
-        src: 'rive/inito_.riv',
+        src: 'rive/inito_usb.riv',
         canvas: canvas13pairingMode02,
         autoplay: true,
         stateMachines: 'INITO SM 13 Pairing mode - 2',

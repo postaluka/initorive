@@ -21,18 +21,19 @@ const canvas13pairingMode02 = document.getElementById('canvas13pairingMode02')
 
 const inito01beforeProvisioning = new rive.Rive(
     {
-        src: 'rive/inito_.riv',
+        src: 'rive/inito.riv',
         canvas: canvas01beforeProvisioning,
         autoplay: true,
         stateMachines: 'INITO SM 01 Device wake up via button - before provisioning',
     }
 )
 
+
 //canvas02afterProvisioning
 
 const inito02afterProvisioning = new rive.Rive(
     {
-        src: 'rive/inito_.riv',
+        src: 'rive/inito.riv',
         canvas: canvas02afterProvisioning,
         autoplay: true,
         stateMachines: 'INITO SM 02 Device wake up via button - after provisioning',
@@ -43,7 +44,7 @@ const inito02afterProvisioning = new rive.Rive(
 
 const inito03bluetoothPairing = new rive.Rive(
     {
-        src: 'rive/inito_.riv',
+        src: 'rive/inito.riv',
         canvas: canvas03bluetoothPairing,
         autoplay: true,
         stateMachines: 'INITO SM 03 Bluetooth pairing',
@@ -54,12 +55,14 @@ const inito03bluetoothPairing = new rive.Rive(
 
 const inito04bluetoothConnected = new rive.Rive(
     {
-        src: 'rive/inito_.riv',
+        src: 'rive/inito.riv',
         canvas: canvas04bluetoothConnected,
         autoplay: true,
         stateMachines: 'INITO SM 04 Bluetooth connected',
     }
 )
+
+
 
 //canvas05phoneBeforeProvision
 
@@ -98,13 +101,13 @@ const inito07validatingStrip = new rive.Rive(
 
 const inito08firmwareUpdate = new rive.Rive(
     {
-        src: 'rive/inito_.riv',
+        src: 'rive/inito.riv',
         canvas: canvas08firmwareUpdate,
         autoplay: true,
         stateMachines: 'INITO SM 08 Firmware update',
     }
-
 )
+
 //canvas09charging
 
 const inito09charging = new rive.Rive(
@@ -120,10 +123,10 @@ const inito09charging = new rive.Rive(
 
 const inito10beforeProvisioning = new rive.Rive(
     {
-        src: 'rive/inito_.riv',
+        src: 'rive/inito.riv',
         canvas: canvas10beforeProvisioning,
         autoplay: true,
-        stateMachines: 'INITO SM 11 Turning on the device - before provisioning',
+        stateMachines: 'INITO SM 10 Turning on the device - before provisioning',
     }
 )
 
@@ -131,7 +134,7 @@ const inito10beforeProvisioning = new rive.Rive(
 
 const inito11afterProvisioning = new rive.Rive(
     {
-        src: 'rive/inito_.riv',
+        src: 'rive/inito.riv',
         canvas: canvas11afterProvisioning,
         autoplay: true,
         stateMachines: 'INITO SM 12 Turning on the device - after provisioning',
@@ -142,7 +145,7 @@ const inito11afterProvisioning = new rive.Rive(
 
 const inito12pairingMode01 = new rive.Rive(
     {
-        src: 'rive/inito_.riv',
+        src: 'rive/inito.riv',
         canvas: canvas12pairingMode01,
         autoplay: true,
         stateMachines: 'INITO SM 12 Pairing mode - 1',
@@ -159,6 +162,8 @@ const inito13pairingMode02 = new rive.Rive(
         stateMachines: 'INITO SM 13 Pairing mode - 2',
     }
 )
+
+
 
 
 
